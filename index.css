@@ -1,0 +1,155 @@
+/* @import "tailwindcss"; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continear{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #7f8fa6, #353b48);
+    padding: 30px;
+}
+.header{
+    background-color: #fad390;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.formbox{
+    width: 90%;
+    height: auto;
+    /* background: linear-gradient(to left, #7f8fa6, #353b48); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 2px black;
+}
+.inputtype{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #fad390;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.inputtype p{
+    color: red;
+    font-size: 12px;
+}
+
+ .inputtype label{
+    font-weight: 700;
+ }
+ .inputtype input{
+    outline: none;
+    background-color: #ecf0f1;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .gender{
+    background-color: #fad390;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+ }
+ .gender p{
+    color: red;
+    font-size: 12px;
+ }
+ .gender label{
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 18px;
+ }
+ .gender input{
+    margin-left: 10px;
+ }
+ .subject{
+    background-color: #fad390;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ .subject p{
+    color: red;
+    font-size: 12px;
+ }
+ .subject label{
+    font-weight: 700;
+    margin-right: 10px;
+ }
+ .subject select{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+ }
+ .resume, .url{
+    background-color: #fad390;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ .resume label{
+    font-weight: 700;
+    margin-right: 10px;
+ }
+ .url label{
+    margin-right: 10px;
+
+    font-weight: 700;
+ }
+ .url input{
+    outline: none;
+    background-color: #ecf0f1;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .about{
+    background-color: #fad390;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ .about label{
+    font-weight: 700;
+ }
+ .about textarea{
+    resize: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+ }
+ .btn{ 
+    background-color: #e67e22;
+    padding: 10px 60px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+ }
+ .btn button{
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    cursor: pointer;
+    border-radius: 10px;
+ }
